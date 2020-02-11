@@ -1,0 +1,815 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(119, 119, 119);
+  line-height: 1.714;
+  text-align: left;  
+}
+
+h2 {
+  font-size: 36px;
+  font-family: "Dosis", sans-serif;
+  color: rgb(34, 34, 34);
+  line-height: 0.833; 
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);  
+}
+
+a:link {
+  color: rgba(255, 255, 255);
+}
+
+button:focus {
+  outline: none;
+}
+
+.fa {
+  margin: auto;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.header {
+  background: linear-gradient(90deg, #fd712c, #f31e7a);
+}
+
+.header .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  color:  rgb(255, 255, 255);
+}
+
+.header .logo {
+  margin-right: auto;
+}
+
+.header .logo .company-logo {
+  width: 48px;
+  height: 40px;
+  padding-top: 30px;
+}
+
+.header .logo .company-name {
+  padding-top: 10px;
+  font-size: 36px;
+  font-family: "Dosis", sans-serif;
+  line-height: 0.667;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.header .menu {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-left: 0px;
+}
+
+.header .menu li {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.714;
+}
+
+.header .download-btn {
+  margin-top: 40px;
+  margin-left: 20px;
+  width: 153px;
+  height: 35px;
+  border-radius: 17px;
+  color: rgb(34, 34, 34);
+  line-height: 1.714;
+  background: rgb(255, 255, 255);
+  text-align: center;
+  border: none;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.header .download-btn:active {
+  border: 1px solid rgb(34, 34, 34);
+}
+
+.banner {
+  padding-top: 100px;
+  padding-bottom: 220px;
+  background: linear-gradient(90deg, #fd712c, #f31e7a);
+  position: relative;
+}
+
+.banner .wrapper {
+  max-width: 500px;
+  z-index: 3;
+  position: relative;
+}
+
+.banner h1 {
+  font-size: 54px;
+  font-family: "Dosis", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.111;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.banner p {
+  color: rgb(255, 255, 255);
+}
+
+.banner .list-white {
+  list-style-position: outside;
+  margin-left: 20px;
+}
+
+.banner .list-white li {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.714;
+  padding-left: 15px;
+  margin-top: 19px;
+}
+
+.banner .start-explore-btn {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: rgb(34, 34, 34);
+  line-height: 2.143;
+  text-align: center;
+  width: 182px;
+  height: 35px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  background-clip: padding-box;
+  box-sizing: content-box;
+  border: 5px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+.banner .start-explore-btn:active {
+  border: 5px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.banner .iphones-images .manage {
+  position: absolute;
+  top: 290px;
+  right: 355px;
+  z-index: 2;
+}
+
+.banner .iphones-images .share {
+  position: absolute;
+  top: 182px;
+  right: 124px;
+  z-index: 2;
+}
+
+.banner .iphones-images .keep {
+  position: absolute;
+  top: 103px;
+  right: 0px;
+  z-index: 2;
+}
+
+.banner .iphones-images .iphones {
+  position: absolute;
+  top: 76px;
+  right: 0px;
+  z-index: 1;
+}
+
+.banner .iphones-images .iphones-shadow {
+  position: absolute;
+  top: 170px;
+  right: 0px;
+  z-index: 0;
+}
+
+.features {
+  padding-top: 120px;
+  padding-bottom: 68px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.features .feature {
+  width: 363px;
+  min-height: 83px;
+  margin-bottom: 52px;
+  display: flex;
+}
+
+.features .feature .circle {
+  min-width: 75px;
+  height: 75px;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 50%;
+  display: flex;
+  margin-right: 25px;
+}
+
+.features .feature .circle .fa {
+  margin: auto;
+  color: rgb(243, 31, 121);
+}
+
+.features .feature .feature-info {
+  max-width: 261px;
+}
+
+.features .feature .feature-info .title {
+  font-size: 24px;
+  font-family: "Dosis", sans-serif;
+  color: rgb(34, 34, 34);
+  line-height: 1;
+  font-weight: bold;
+  margin: 0;
+}
+
+.horizontal-line {
+  color: rgb(238, 238, 238);
+  background-color: rgb(238, 238, 238);
+  height: 2px;
+  border: none;
+  max-width: 1140px;
+}
+
+.dont-leave {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-image: url("img/delta.png"),
+                    url("img/device.png"),
+                    url("img/device-shadow.png");
+  background-repeat: no-repeat, 
+                     no-repeat,
+                     no-repeat;
+  background-position: 40px 152px,
+                       15px 120px,
+                       -150px 0px;
+  background-size: auto, 
+                   auto, 
+                   700px 650px;
+}
+
+.dont-leave .info {
+  padding-left: 50%;
+}
+
+.dont-leave .info .list-black {
+  list-style-position: outside;
+  margin-left: 20px;
+  margin-top: 37px;
+}
+
+.dont-leave .info .list-black .fa {
+  color: rgb(34, 34, 34);
+}
+
+.dont-leave .info .list-black li {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(119, 119, 119);
+  line-height: 1.714;
+  padding-left: 15px;
+  margin-top: 19px;
+  font-weight: bold;
+}
+
+.screenshots {
+  padding-top: 120px;
+  background: rgb(247, 250, 252);
+  padding-bottom: 50px;
+}
+
+.screenshots h2  {
+  text-align: center;
+  margin-top: 0;
+}
+
+.screenshots .description {
+  margin: auto;
+  text-align: center;
+  max-width: 656px;
+}
+
+.screenshots .slider {
+  position: relative;
+  overflow: hidden;
+  display: flex; 
+  justify-content: center;
+}
+
+.screenshots .slider .carouselWaterwheel {
+  width: 800px;
+  height: 520px;
+}
+
+.screenshots .slider .carouselWaterwheel img {
+  cursor: pointer; 
+}
+
+.screenshots .slider .btn-prev,
+.screenshots .slider .btn-next {
+  display: flex;
+  color: rgb(255, 255, 255);
+  border: 3px solid rgb(0, 0, 0, 0.1);
+  border-radius: 50%;
+  background: linear-gradient(90deg, rgb(253,113,44), rgb(242,23,128));
+  background-clip: padding-box;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  z-index: 10;
+  cursor: pointer;
+} 
+
+.screenshots .slider .btn-prev {
+  left: 20px;
+  top: 290px;
+}
+
+.screenshots .slider .btn-next {
+  top: 290px;
+  right: 20px;
+}
+
+.screenshots .slider .btn-prev:active,
+.screenshots .slider .btn-next:active {
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.pricing {
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+
+.pricing h2  {
+  text-align: center;
+  margin-top: 0;
+}
+
+.pricing .description {
+  margin: auto;
+  text-align: center;
+  max-width: 656px;
+}
+
+.pricing .sub-cases {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  flex-wrap: wrap;
+}
+
+.pricing .sub-cases .sub-case {
+  width: 260px;
+  height: 500px;
+  background: rgb(247, 250, 252);
+  position: relative;
+  z-index: 0;
+  margin-bottom: 30px;
+}
+
+.pricing .sub-cases .sub-case .name {
+  font-size: 20px;
+  font-family: "Dosis", sans-serif;
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+  font-weight: bold;
+} 
+
+.pricing .sub-cases .sub-case svg {
+  position: absolute;
+  z-index: -1;
+  width: 260px;
+}
+
+.pricing .sub-cases .sub-case .price {
+  font-size: 46px;
+  font-family: "Dosis", sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 0.5;
+  text-align: center;
+}
+
+.pricing .sub-cases .sub-case .price sup {
+  font-size: 23px;
+}
+
+.pricing .sub-cases .sub-case .price sub{
+  font-size: 23px;
+  vertical-align: unset;
+  font-weight: bold;
+}
+
+.pricing .sub-cases .sub-case .advantages {
+  padding: 35px;
+  margin-top: 70px;
+}
+
+.pricing .sub-cases .sub-case .advantages li {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(119, 119, 119);
+}
+
+.pricing .sub-cases .sub-case .advantages hr {
+  border-width: 1px;
+  border-color: rgb(238, 238, 238);
+  border-style: dashed;
+}
+
+.pricing .sub-cases .sub-case .trial {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(170, 170, 170);
+  line-height: 1.711;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.pricing .sub-cases .sub-case .btn {
+  display: flex;
+}
+
+.pricing .sub-cases .sub-case .btn .btn-buy {
+  margin: auto;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+  line-height: 1.711;
+  text-align: center;
+  width: 120px;
+  height: 35px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  border: 1px solid rgb(238, 238, 238);
+  background-clip: padding-box;
+  box-sizing: content-box;
+  cursor: pointer;
+}
+
+.pricing .sub-cases .sub-case .btn .btn-buy:active {
+  border: 1px solid rgb(238, 238, 238, 0); 
+}
+
+.pricing .sub-cases .sub-case.discount {
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.pricing .sub-cases .sub-case.discount .price {
+  color: rgb(255, 255, 255);
+}
+
+.pricing .sub-cases .sub-case.discount .btn .btn-buy {
+  background: linear-gradient(90deg, rgb(253,113,44), rgb(242,23,128));
+  background-clip: padding-box;
+  box-sizing: content-box;
+  border: 5px solid rgba(0, 0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.pricing .sub-cases .sub-case.discount .btn .btn-buy:active {
+  border: 5px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.media {
+  position: relative;
+  margin-bottom: 0;
+}
+
+.media .video {
+  margin: auto;
+  margin-bottom: 0;
+  width: 100%;
+  background: rgb(119, 119, 119);
+  max-height: 400px;
+}
+
+.media .play {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0; 
+  display: flex;
+}
+
+.media .play .icon {
+  width: 75px;
+  height: 75px;
+  background: linear-gradient(90deg, rgb(253,113,44), rgb(242,23,128));
+  margin: auto;
+  border-radius: 50%;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.media .play .icon .fa {
+  margin-top: 30%;
+  margin-left: 40%;
+  color: rgb(255, 255, 255);
+}
+
+.media .overlay {
+  width: 100%;
+  height: 99%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgb(0, 0, 0, 0.702);
+  z-index: 1;
+}
+
+.testimonials {
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
+.testimonials h2  {
+  text-align: center;
+  margin-top: 0;
+}
+
+.testimonials .description {
+  margin: auto;
+  text-align: center;
+  max-width: 656px;
+}
+
+.testimonials .slick-carousel {
+  position: relative;
+}
+
+.testimonials .slick-carousel .stage {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.testimonials .slick-carousel .stage .slick-slide {
+  padding: 40px;
+  margin: 60px 15px;
+  background-color: rgb(247, 250, 252);
+}
+
+.testimonials .slick-carousel .stage .slick-slide p {
+  margin: 0px;
+}
+
+.testimonials .slick-carousel .stage .slick-slide .avatar {
+  margin-top: 30px;
+  margin-right: 20px;
+  width: 70px;
+  height: 70px;
+  float: left;
+}
+
+.testimonials .slick-carousel .stage .slick-slide .name {
+  margin-top: 40px;
+  font-size: 18px;
+  font-family: "Dosis", sans-serif;
+  color: rgb(34, 34, 34);
+  line-height: 1.333;
+  font-weight: bold;
+}
+
+.testimonials .slick-carousel .stage .active-slide {
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+  transition: 1s;
+  background-color: rgb(255, 255, 255);
+}
+
+.testimonials .slick-carousel .slick-btn-prev,
+.testimonials .slick-carousel .slick-btn-next {
+  display: flex;
+  border: 3px solid rgb(0, 0, 0, 0.1);
+  border-radius: 50%;
+  background-clip: padding-box;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: 45%;
+  z-index: 1;
+  cursor: pointer;
+} 
+
+.testimonials .slick-carousel .slick-btn-prev {
+  left: 0px;
+}
+
+.testimonials .slick-carousel .slick-btn-next {
+  right: 0px;
+}
+
+.testimonials .slick-carousel .slick-btn-prev:active,
+.testimonials .slick-carousel .slick-btn-next:active {
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.inactive-btn {
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255);
+  color: rgb(0, 0, 0);
+  pointer-events: none;
+}
+
+.active-btn {
+  color: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgb(253,113,44), rgb(242,23,128));
+  pointer-events: all;
+}
+
+.downloadOs {
+  background: linear-gradient(90deg, rgb(253,113,44), rgb(242,23,128));
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+
+.downloadOs h2  {
+  text-align: center;
+  margin-top: 0;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  margin-bottom: 80px;
+}
+
+.downloadOs .download-cases {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.downloadOs .download-cases .download-case {
+  width: 360px;
+  min-height: 115px;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: flex;
+}
+
+.downloadOs .download-cases .download-case .icon {
+  border-radius: 3px;
+  background: rgb(247, 250, 252);
+  min-width: 115px;
+  min-height: 115px;
+  display: flex;
+  margin-right: 19px;
+}
+
+.downloadOs .download-cases .download-case .icon .fa {
+  -webkit-text-stroke: rgb(218, 221, 223) 2px;
+  color: rgb(119, 119, 119);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+} 
+
+.downloadOs .download-cases .download-case:hover .icon .fa {
+  background: linear-gradient(90deg, rgb(253,113,44), rgb(242,23,128));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.downloadOs .download-cases .download-case .info {
+  margin-right: 19px;
+}
+
+.downloadOs .download-cases .download-case .info .download {
+  font-size: 30px;
+  font-family: "Dosis", sans-serif;
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+  line-height: 0.8;
+  margin-bottom: 0;
+}
+
+.footer {
+  background: rgb(34, 34, 34);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer .social-network {
+  color: rgb(255, 255, 255);
+  text-align: center;  
+  margin-top: 0px;
+}
+
+.footer .social-network .fa {
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.footer .social-network .fa-dribbble {
+  color: rgb(243, 31, 121);
+}
+
+.footer .copyright {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .banner {
+    padding-bottom: 120px;
+  }
+
+  .banner .wrapper {
+    margin: 0 auto;
+  }
+
+  .banner .iphones-images {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header .wrapper {
+    justify-content: space-around;
+  }
+
+  .header .logo {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .header .download-btn {
+    margin-right: 20px;
+  }
+
+  .dont-leave {
+    background: none;
+    min-height: 0;
+  }
+  
+  .dont-leave .info {
+    padding: 0;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .media .play .icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .media .play .icon .fa {
+    margin-left: 30%;
+    margin-top: 20%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .testimonials .slick-carousel .stage {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+} 
